@@ -1,0 +1,87 @@
+.page-header-wrapper {
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .page-header-wrapper {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+}
+
+.page-header-inner {
+  position: relative;
+  z-index: 1;
+}
+
+.page-header-dots {
+  position: absolute;
+  color: var(--mantine-color-gray-1);
+}
+
+@media (max-width: 768px) {
+  .page-header-dots {
+    display: none;
+  }
+}
+
+.page-header-title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+  letter-spacing: -1px;
+  color: var(--mantine-color-black);
+  margin-bottom: 8px;
+  font-family: 'Greycliff CF', sans-serif;
+}
+
+@media (max-width: 576px) {
+  .page-header-title {
+    font-size: 28px;
+    text-align: left;
+  }
+}
+
+.page-header-highlight {
+  color: var(--mantine-color-blue-6);
+}
+
+.page-header-description {
+  text-align: center;
+  color: var(--mantine-color-gray-6);
+}
+
+@media (max-width: 576px) {
+  .page-header-description {
+    text-align: left;
+    font-size: 16px;
+  }
+}
+
+.page-header-controls {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .page-header-controls {
+    flex-direction: column;
+  }
+}
+
+.page-header-control:not(:first-of-type) {
+  margin-left: 16px;
+}
+
+@media (max-width: 576px) {
+  .page-header-control {
+    height: 42px;
+    font-size: 16px;
+  }
+
+  .page-header-control:not(:first-of-type) {
+    margin-top: 16px;
+    margin-left: 0;
+  }
+}

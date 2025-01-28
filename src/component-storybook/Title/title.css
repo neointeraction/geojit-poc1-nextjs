@@ -1,0 +1,75 @@
+/* Importing Open Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+.h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 60px;
+}
+
+.h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 45px;
+}
+
+.h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; /* semibold */
+  font-size: 35px;
+}
+
+.h5-bold-italic {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.h5-semibold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; /* semibold */
+  font-size: 30px;
+}
+
+.body-24 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; /* regular */
+  font-style: italic;
+  font-size: 24px;
+}
+
+.body-20 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; /* regular */
+  font-style: italic;
+  font-size: 20px;
+}
+
+.body-16 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; /* regular */
+  font-style: italic;
+  font-size: 16px;
+}
+
+.body-18 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; /* regular */
+  font-size: 18px;
+}
+
+.body-14 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; /* regular */
+  font-size: 14px;
+}
